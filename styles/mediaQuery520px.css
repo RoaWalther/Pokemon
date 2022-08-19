@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body .main .container 
+.buttons .inputFields 
+.pokemonData .pokemonStatsContainer{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  display: inline-block;
+  width: 100%;
+}
+
+.main .inputFields {
+  display: flex;
+  width: 100%;
+  font-size: 1.2em;
+}
+
+.inputFields .buttons{
+    display: flex;
+    width: 100%;
+    font-size: 1.2em;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+.inputFields .buttons img{
+  width: 100px;
+}
+  
+.pokemonData {
+  display: flex;
+}
+  
+.pokemonData .container {
+  width: 80%;
+  height: 80%;
+  margin-top: 1px;
+}

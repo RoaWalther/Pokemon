@@ -1,0 +1,16 @@
+.main .pokemonData {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .main .inputFields{
+    font-size: 0.9rem;
+    margin: auto;
+  }
+
+  .pokemonData .container{
+    width: 100%;
+    height: 65%;
+    margin: 70px auto;
+    margin-top: 100px;
+  }
